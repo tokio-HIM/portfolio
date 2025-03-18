@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>SAMURAI ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href="#">TOKIO TANAKA</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="#works">WORKS</a></li>
+            <li class="gnav-item"><a href="#skill">SKILL</a></li>
+            <li class="gnav-item"><a href="#about">ABOUT</a></li>
+            <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- mv -->
+      <div class="mv">
+        <div class="mv-container">
+          <img src="img/My Portfolio (2).png" alt="">
+        </div>
+      </div>
+      <!-- /mv -->
+
+<!-- カルーセル開始 -->
+<section class="works section" id="works">
+  <div class="container">
+    <h2 class="title text-center">WORKS</h2>
+    <div id="worksCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+      
+      <!-- インジケーター -->
+      <ol class="carousel-indicators">
+        <li data-bs-target="#worksCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#worksCarousel" data-bs-slide-to="1"></li>
+      </ol>
+
+      <!-- スライドアイテム -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a class="works-item" href="works-1.html">
+            <div class="works-img"><img src="img/works/works-1-1.png" alt="html1"></div>
+            <p class="works-name">収支管理アプリ</p>
+            <p class="works-info">HTML/CSS/JavaScript/レスポンシブ対応</p>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a class="works-item" href="works-2.html">
+            <div class="works-img"><img src="img/works/html2.png" alt="html2"></div>
+            <p class="works-name">メモアプリ</p>
+            <p class="works-info">HTML/CSS/JavaScript/Python</p>
+          </a>
+        </div>
+      </div>
+
+      <!-- 前後のナビゲーションボタン -->
+      <a class="carousel-control-prev" href="#worksCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#worksCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- カルーセル終了 -->
+
+
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="container">
+          <h2 class="title">SKILL</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/skills/html.png" alt="html"></p>
+              <div class="skill-body">
+                <h3 class="skill-name">HTML/CSS</h3>
+                <p class="skill-text">
+                  スマホで見ても表示崩れのないレスポンシブ対応も可能です。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/skills/wordpress.png" alt="wordpress"></p>
+              <div class="skill-body">
+                <h3 class="skill-name">WordPress</h3>
+                <p class="skill-text">
+                  WordPress製の店舗HP・企業HP・メディアサイトなど、Webサイトを0から構築することが可能です。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/skills/icons8-javascript-96.png" alt="javascript"></p>
+              <div class="skill-body">
+                <h3 class="skill-name">JavaScript</h3>
+                <p class="skill-text">
+                  お問い合わせフォームや自動スクロールなど動きのあるWebサイトを作る事が可能です。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/skills/icons8-python-96.png" alt="photoshop"></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Python</h3>
+                <p class="skill-text">
+                DjangoやFLASKといったフレームワークを使用し、Webアプリを作ることが可能です。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/skills/jquery.png" alt="jquery"></p>
+              <div class="skill-body">
+                <h3 class="skill-name">jQuery</h3>
+                <p class="skill-text">
+                  Webサイトにフェードイン・フェードアウトなどリッチな動きをつけることが可能です。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/skills/xd.png" alt="adobexd"></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Adobe XD</h3>
+                <p class="skill-text">
+                  Webサイトのデザインやワイヤーフレームを作ることが可能です。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="container">
+          <h2 class="title">ABOUT</h2>
+          <div class="profile">
+            <p class="profile-img">
+              <img src="img/about.jpeg" alt="about">
+            </p>
+            <div class="profile-body">
+              <p>
+                TOKIO TANAKA
+              </p>
+              <p>
+                埼玉県在住。大学に通いながらWebアプリの開発をしております。2025年の2月より本格的にプログラミングの勉強を開始し、主にPythonを利用した開発を行ってきました。またCSS,HTML,JavaScriptを用いたフロントエンドの開発も可能です。
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /about -->
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            お問い合わせは、<br class="sp-only">メールまたはSNSにてお願いいたします。
+          </p>
+          <div class="contact-list">
+            <a href="https://x.com/TK03KO" target="_blank">
+              <img src="img/icons8-ツイッターx-100.png" alt="X(旧Twitter)">
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;TOKIO TANAKA</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
